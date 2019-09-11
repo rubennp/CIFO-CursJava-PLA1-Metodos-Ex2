@@ -16,6 +16,7 @@ public class Main {
 		System.out.println("* Escribe el carácter del que quieras buscar la cantidad dentro de la cadena:");
 		char c = in.next().charAt(0);
 		System.out.println("-> El carácter '" + c + "' aparece " + veces(c, cadena) + " veces.");
+		in.close();
 	}
 	
 	/*
